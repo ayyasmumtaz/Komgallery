@@ -53,17 +53,19 @@ const Login = () => {
       </div>
 
       <div className="absolute flex flex-col justify-center items-center top-0 right-0 left-0 bottom-0 bg-black/50">
-        <div className="p-5">
-          <img src={logoNs} width="110px" alt="logo" />
-        </div>
+        <div className="flex flex-col justify-center items-center co">
+          <div className="p-5">
+            <img src={logoNs} width="110px" alt="logo" />
+          </div>
 
-        <div className="shadow-2x1">
-          <GoogleLogin
-            clientId={process.env.REACT_APP_GOOGLE_API_TOKEN}
-            onSuccess={responseGoogle}
-            onError={responseGoogle}
-            cookiePolicy="single_host_origin"
-          />
+          <div className="shadow-2x1">
+            <GoogleLogin
+              clientId={process.env.REACT_APP_GOOGLE_API_TOKEN}
+              onSuccess={responseGoogle}
+              onError={responseGoogle}
+              cookiePolicy="single_host_origin"
+            />
+          </div>
         </div>
       </div>
     </div>
