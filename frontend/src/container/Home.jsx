@@ -29,6 +29,8 @@ const Home = () => {
     scrollRef.current.scrollTo(0, 0);
   }, []);
 
+  
+
   return (
     <div className="flex bg-gray-50 md:flex-row flex-col h-screen transition-height duration-75 ease-out">
       <div className="hidden md:flex h-screen flex-initial">
