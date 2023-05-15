@@ -21,6 +21,7 @@ const Feed = () => {
       });
     } else {
       setLoading(true);
+
       client.fetch(feedQuery).then((data) => {
         setPins(data);
         setLoading(false);
@@ -33,6 +34,12 @@ const Feed = () => {
       <Spinner message={`We are adding ${ideaName} ideas to your feed!`} />
     );
   }
+  if (!pins?.length)
+  return (
+    <h2 className="text-center">
+      No Pins in Category, Check Back Later
+    </h2>
+  );
   return (
     <div>
       {pins && (
