@@ -33,7 +33,7 @@ const Sidebar = ({ closeToggle, user }) => {
             Home
           </NavLink>
           <h3 className="mt-2 px-5 text-base 2xl:text-xl">Discover cateogries</h3>
-          {categories.slice(0, categories.length - 1).map((category) => (
+          {categories.slice(0, categories.length).map((category) => (
             <NavLink
               to={`/category/${category.name}`}
               className={({ isActive }) => (isActive ? isActiveStyle : isNotActiveStyle)}
@@ -41,7 +41,7 @@ const Sidebar = ({ closeToggle, user }) => {
               key={category.name}
             >
               {/* buat gambar kategori */}
-              <img src={category.image} className="w-8 h-8 rounded-full shadow-sm" />
+              <img src={category.image} className="w-8 h-8 rounded-full shadow-sm" alt='gambar' />
               {category.name}
             </NavLink>
           ))}

@@ -54,20 +54,8 @@ export const feedQuery = `*[_type == "pin"] | order(_createdAt desc) {
 
 export const categories = [
   {
-    name: 'cars',
+    name: 'coding',
     image: 'https://i.pinimg.com/750x/eb/47/44/eb4744eaa3b3ccd89749fa3470e2b0de.jpg',
-  },
-  {
-    name: 'fitness',
-    image: 'https://i.pinimg.com/236x/25/14/29/251429345940a47490cc3d47dfe0a8eb.jpg',
-  },
-  {
-    name: 'wallpaper',
-    image: 'https://i.pinimg.com/236x/03/48/b6/0348b65919fcbe1e4f559dc4feb0ee13.jpg',
-  },
-  {
-    name: 'websites',
-    image: 'https://i.pinimg.com/750x/66/b1/29/66b1296d36598122e6a4c5452b5a7149.jpg',
   },
   {
     name: 'photo',
@@ -85,19 +73,24 @@ export const categories = [
     name: 'art',
     image: 'https://i.pinimg.com/736x/f4/e5/ba/f4e5ba22311039662dd253be33bf5f0e.jpg',
   }, {
-    name: 'travel',
+    name: 'event',
     image: 'https://i.pinimg.com/236x/fa/95/98/fa95986f2c408098531ca7cc78aee3a4.jpg',
   },
   {
     name: 'quotes',
     image: 'https://i.pinimg.com/236x/46/7c/17/467c17277badb00b638f8ec4da89a358.jpg',
-  }, {
-    name: 'cats',
-    image: 'https://i.pinimg.com/236x/6c/3c/52/6c3c529e8dadc7cffc4fddedd4caabe1.jpg',
-  }, {
-    name: 'dogs',
-    image: 'https://i.pinimg.com/236x/1b/c8/30/1bc83077e363db1a394bf6a64b071e9f.jpg',
   },
+  {
+    name: 'anime',
+    image: 'https://dailyspin.id/wp-content/uploads/2023/04/Zoro.jpg',
+  }, {
+    name: 'gif',
+    image: 'https://media.giphy.com/media/RtdRhc7TxBxB0YAsK6/giphy.gif',
+  }, 
+  {
+    name: 'meme',
+    image: 'https://asset.kompas.com/crops/Qd60OGZ5Zrqjxj6jDxubj_qQSQ4=/118x41:609x368/750x500/data/photo/2021/09/26/61505cf88cb31.jpeg',
+  }, 
   {
     name: 'others',
     image: 'https://i.pinimg.com/236x/2e/63/c8/2e63c82dfd49aca8dccf9de3f57e8588.jpg',
