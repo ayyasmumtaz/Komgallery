@@ -51,13 +51,11 @@ const Login = () => {
           className="w-full h-full object-cover"
         />
       </div>
-
       <div className="absolute flex flex-col justify-center items-center top-0 right-0 left-0 bottom-0 bg-black/50">
-        <div className="flex flex-col justify-center items-center co">
+        <div className="flex flex-col justify-center items-center">
           <div className="p-5">
             <img src={logoNs} width="160px" alt="logo" />
           </div>
-
           <div className="shadow-2x1">
             <GoogleLogin
               clientId={process.env.REACT_APP_GOOGLE_API_TOKEN}
