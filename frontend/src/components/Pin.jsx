@@ -139,7 +139,7 @@ const Pin = ({ pin: { postedBy, image, _id, destination, save } }) => {
           src={postedBy?.image}
           alt="user-profile"
         />
-        <p className="font-medium capitalize text-sm">{postedBy?.userName}</p>
+        <p className="font-medium capitalize text-xs md:text-sm">{postedBy?.userName}</p>
       </Link>
     </div>
   );

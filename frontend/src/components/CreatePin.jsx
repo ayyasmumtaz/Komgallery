@@ -154,7 +154,7 @@ const CreatePin = ({ user }) => {
             type="text"
             value={about}
             onChange={(e) => setAbout(e.target.value)}
-            placeholder="Tell everyone what your Pin is about"
+            placeholder="Tell everyone what your Picture is about"
             className="outline-none text-base sm:text-lg border-b-2 border-gray-200 p-2"
           />
           <input
