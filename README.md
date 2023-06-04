@@ -33,9 +33,11 @@ For detailed instructions on configuring and customizing the application, as wel
 
 The development of KomGallery is led by a team of talented individuals:
 
-- Lead And Product Developer: Ayyas Mumtaz Yudha G6401211146
-- Project Manager And Analyst : Dinda Regista Aprilia G6401211012 
-- Project Manager And Design :  Lailatul Shakdiyah G6401211050
+| Role                            | Name                     | Student ID   |
+|---------------------------------|--------------------------|--------------|
+| Lead and Product Developer      | Ayyas Mumtaz Yudha       | G6401211146  |
+| Project Manager and Analyst     | Dinda Regista Aprilia    | G6401211012  |
+| Project Manager and Design      | Lailatul Shakdiyah       | G6401211050  |
 
 We would like to express our sincere appreciation to all contributors who have played a role in shaping the development of KomGallery. We would like to express our gratitude to everyone who has supported the development of the KomGallery project. Please feel free to reach out to the development team if you have any questions or feedback.
 
