@@ -27,7 +27,6 @@ To get started with KomGallery locally, follow the steps below:
 3. Start the development server: `npm start`
 4. Access the application in your browser at `http://localhost:3000`
 
-For detailed instructions on configuring and customizing the application, as well as advanced features and deployment options, please refer to the comprehensive documentation available in the `docs` directory.
 
 ## Developers
 
